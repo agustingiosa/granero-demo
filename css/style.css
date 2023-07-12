@@ -6310,8 +6310,7 @@ nav a#pull {
 .title{
   color: white;
   margin: 2rem;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  font-family: bebas neue;
+  font-family: 'Oswald', sans-serif;
 }
 
 .boxHorarios {
@@ -6327,6 +6326,7 @@ nav a#pull {
 .boxHorarios p {
   color: white;
   font-size: 1rem;
+  font-family: roboto, Helvetica, helvetica;
 }
 
 .mapa {
