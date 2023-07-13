@@ -6355,6 +6355,39 @@ nav a#pull {
   text-align: center;
 }
 
+/*NAVBAR MENU*/
+.menu {
+  position: fixed;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 0.3rem solid brown;
+  height: 3rem;
+  font-family: bebas neue;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.menu li a.active {
+  font-weight: bold;
+}
+
 @media screen and (max-width:1275px){
   .primerPagina h2 {
       font-size: 4rem;
