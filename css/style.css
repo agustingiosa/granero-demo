@@ -6282,7 +6282,6 @@ nav a#pull {
   font-size: 6rem;
 }
 
-
 .estadoTienda {
   display: flex;
   text-align: center;
@@ -6294,7 +6293,6 @@ nav a#pull {
   width: 20rem;
   height: 5rem;
   margin: 2rem auto;
-  border: 0.2rem solid black;
   text-decoration: none;
 }
 
@@ -6308,8 +6306,7 @@ nav a#pull {
 }
 
 .title{
-  color: white;
-  margin: 2rem;
+  color: black;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -6350,42 +6347,8 @@ nav a#pull {
   text-decoration: none;
 }
 
-
 .container {
   text-align: center;
-}
-
-/*NAVBAR MENU*/
-.menu {
-  position: fixed;
-  z-index: 10000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
-  border: 0.3rem solid brown;
-  height: 3rem;
-  font-family: bebas neue;
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  display: inline-block;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #333;
-  padding: 5px 10px;
-}
-
-.menu li a.active {
-  font-weight: bold;
 }
 
 @media screen and (max-width:1275px){
@@ -6414,120 +6377,9 @@ nav a#pull {
   }
 }
 
-@media screen and (max-width:951px){
-  .menu {
-      text-align: center;
-      height: 5rem;
-  }
-  .menu a{
-      margin-top: 1rem;
-  }
-}
-
-@media screen and (max-width:767px){
-  .mapa {
-      width: 9rem;
-      height: 20rem;
-  }
-  .boxHorarios p{
-      font-size: 0.8rem;
-  }
-}
-
 @media screen and (max-width:554px){
   .estadoTienda{
       width: 10rem;
       height: 3rem;
-  }
-  .mapa {
-      width: 8rem;
-      height: 15rem;
-  }
-  .boxHorarios{
-      height: 28rem;
-  }
-  .boxHorarios p{
-      font-size: 0.6rem;
-  }
-  .title {
-      font-size: 1.2rem;
-  }
-  .horariosUbicacion{
-      height: 40rem;
-  }
-  
-}
-
-@media screen and (max-width:532px){
-  .menu {
-      text-align: center;
-      height: 6rem;
-  }
-}
-
-@media screen and (max-width:517px){
-  .mapa{
-      width: 8rem;
-  }
-  .boxHorarios {
-    height: 30rem;
-  }
-  .horariosUbicacion {
-    height: 43rem;
-  }
-}
-
-@media screen and (max-width:486px){
-  .mapa{
-      width: 2rem;
-  }
-}
-
-@media screen and (max-width:483px){
-  .horariosUbicacion{
-    height: 80rem;
-  }
-}
-
-
-@media screen and (max-width:405px){
-  .menu {
-      text-align: center;
-      height: 7.5rem;
-  }
-}
-
-
-@media screen and (max-width:414px){
-  .menu {
-      text-align: center;
-      height: 7rem;
-  }
-  .horariosUbicacion {
-      height: 80rem;
-  }
-  .contenedorHamb {
-      height: 15rem;
-  }
-  .contenedorHamb .imagenHamb {
-      height: 10rem;
-      width: 8rem;
-  }
-}
-
-
-@media screen and (max-width:486px){
-  .mapa{
-      width: 19rem;
-  }
-}
-@media screen and (max-width:474px){
-  .mapa{
-      width: 17rem;
-  }
-}
-@media screen and (max-width:443px){
-  .mapa{
-      width: 13rem;
   }
 }
