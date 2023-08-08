@@ -6351,6 +6351,14 @@ nav a#pull {
   text-align: center;
 }
 
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 @media screen and (max-width:1275px){
   .primerPagina h2 {
       font-size: 4rem;
