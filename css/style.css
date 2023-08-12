@@ -2713,7 +2713,8 @@ span.ico-holder {
 #pb-2-1 { background-image: url(../images/granero/diseños/mila66.jpg); 
   background-size: cover;
   height: 25rem;}
-#pb-2-2 { background-image: url(../images/granero/lugar/311965753_627004405738442_3584953846829980256_n.jpg); }
+#pb-2-2 { background-image: url(../images/granero/lugar/311965753_627004405738442_3584953846829980256_n.jpg); 
+  height: 25rem;}
 
 #promo-1 .row {
   margin-left: -10px;
@@ -6283,11 +6284,25 @@ nav a#pull {
 /* MIS ESTILOS */
 
 .primerPagina h2{
-  font-family: 'Lilita One', cursive;
+  background-color: transparent;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   font-size: 6rem;
 }
 
 .estadoTienda {
+  background-color: transparent;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -6376,6 +6391,16 @@ nav a#pull {
   color: white;
 }
 
+.tituloP {
+  background-color: transparent;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 
 @media screen and (max-width:1275px){
   .primerPagina h2 {
