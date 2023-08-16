@@ -13,7 +13,10 @@
   Tags: Jthemes, Food, Fast Food, Restaurant, Pizzeria, Restaurant Menu, Pizza, Burger, Sushi, Steak, Grill, Snack
 */
 
-
+@font-face {
+  font-family: 'americana'; /* Puedes poner el nombre que quieras */
+  src: url('../fonts/AIR\ AMERICANA.TTF') format('truetype'); /* Ajusta la ruta y el formato del archivo */
+}
 
 
 /* ==========================================================================
@@ -1900,6 +1903,18 @@ span.item-code {
 
 #header-3.navik-header {
   padding-top: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5)100%);
+  background-size: cover;
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 2);
+}
+
+@media (max-width: 1200px) {
+  #header-3.navik-header {
+    padding-top: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)100%);
+    background-size: cover;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 2);
+  }
 }
 
 /*------------------------------------------*/
@@ -1935,6 +1950,7 @@ span.item-code {
 
 .navik-menu ul li.dropdown_menu > a > span::before {
   top: -6px;
+  background-color: white;
 }
 
 /*------------------------------------------*/
@@ -2060,6 +2076,8 @@ span.ico-holder {
 #header-1.navik-header.sticky,
 #header-3.navik-header.sticky {
   padding-top: 0;
+  background-color: white;
+  background: snow;
 }
 
 
@@ -2091,9 +2109,8 @@ span.ico-holder {
 
 #hero-4 {
   position: relative;
-  background-image: url(../images/hero-4.jpg);
+  background-image: url(../images/granero/lugar/principal.jpeg);
   padding-top: 170px;
-  padding-bottom: 90px;
 }
 
 #hero-5 .bg-inner {
@@ -2522,9 +2539,7 @@ span.ico-holder {
 }
 
 #about-2 {
-  background-image: url(../images/about-2.jpg);
   padding-top: 100px;
-  padding-bottom: 300px;
 }
 
 #about-5,
@@ -6283,9 +6298,15 @@ nav a#pull {
 
 /* MIS ESTILOS */
 
+.primerPagina {
+  height: 17rem;
+  width: 34rem;
+  background-color: rgba(10, 10, 10, .65);
+}
+
 .primerPagina h2{
   background-color: transparent;
-  font-family: 'Oswald', sans-serif;
+  font-family: americana;
   color: #fff;
   line-height: 1;
   font-weight: 500;
@@ -6400,6 +6421,32 @@ nav a#pull {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+.bordes {
+  position: relative;
+  border-bottom: none; /* Eliminar el borde inferior predeterminado */
+
+  /* Agregar imagen de fondo al borde */
+  background-image: url('../images/granero/diseños/cuadradito.png');
+  background-repeat: repeat-x; /* Repetir la imagen horizontalmente */
+  background-position: bottom center; /* Posicionar la imagen en la parte inferior */
+  background-size: auto 2rem; /* Ajustar el tamaño de la imagen */
+}
+
+.bordes::before {
+  content: "";
+  position: absolute;
+  bottom: 0; /* Colocar el borde en la parte inferior */
+  left: 0;
+  width: 100%;
+  height: 2rem; /* Altura del borde */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro transparente */
+  z-index: -1;
+}
+
+.arregloBordes {
+  padding-bottom: 10rem;
 }
 
 @media screen and (max-width:1275px){
