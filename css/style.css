@@ -6299,8 +6299,11 @@ nav a#pull {
 /* MIS ESTILOS */
 
 .primerPagina {
-  height: 17rem;
-  width: 34rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20rem;
   background-color: rgba(10, 10, 10, .65);
 }
 
@@ -6449,6 +6452,34 @@ nav a#pull {
   padding-bottom: 10rem;
 }
 
+.tituloPrincipal {
+  margin-bottom: 1rem;
+  transform: rotate(-5deg);
+  transform-origin: center;
+}
+
+.btn-rotate {
+  transform: rotate(-5deg);
+  transform-origin: center;
+}
+
+@media screen and (max-width:1920px){
+  .primerPagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 22rem;
+    width: 30rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgba(10, 10, 10, .65);
+  }
+  
+}
+
 @media screen and (max-width:1275px){
   .primerPagina h2 {
       font-size: 4rem;
@@ -6459,6 +6490,9 @@ nav a#pull {
   .mapa {
       width: 15rem;
   }
+  #hero-4 {
+    height: 35rem;
+}
 }
 
 @media screen and (max-width:991px){
@@ -6479,5 +6513,35 @@ nav a#pull {
   .estadoTienda{
       width: 10rem;
       height: 3rem;
+  }
+}
+
+@media screen and (max-width:510px){
+  .centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .primerPagina {
+    height: 20rem;
+    width: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(10, 10, 10, .65);
+  }
+}
+
+@media screen and (max-width:410px){
+  .primerPagina {
+    height: 20rem;
+    width: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(10, 10, 10, .65);
   }
 }
