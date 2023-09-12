@@ -1,0 +1,238 @@
+
+.imagenUSA img{
+    position: relative;
+    width: 55rem;
+}
+
+.fondoRuta {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://www.freevector.com/uploads/vector/preview/28647/Route_66_vector_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.enlaces-fijos {
+    position: absolute;
+}
+
+.enlace {
+    position: absolute;
+    text-decoration: none;
+    color: black; /* Color del texto de los enlaces */
+    padding: 5px 10px; /* Espaciado opcional alrededor de los enlaces */
+    font-size: 1.2rem;
+}
+
+.losAngeles {
+    top: -13.5rem;
+}
+.losAngelesPunto {
+    top: -16.1rem;
+    left: 3.3rem;
+    font-size: 2rem;
+    color: orange;
+}
+.losAngelesPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.lasVegas {
+    top: -21rem;
+    left: 6rem;
+}
+.lasVegasPunto {
+    top: -17.4rem;
+    left: 6.6rem;
+    font-size: 2rem;
+    color: orange;
+}
+.lasVegasPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.flagstaff {
+    top: -15rem;
+    left: 9rem;
+}
+.flagstaffPunto {
+    top: -17.7rem;
+    left: 10rem;
+    font-size: 2rem;
+    color: orange;
+}
+.flagstaffPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.alburquerque {
+    top: -18rem;
+    left: 14rem;
+}
+.alburquerquePunto {
+    top: -16.3rem;
+    left: 16rem;
+    font-size: 2rem;
+    color: orange;
+}
+.alburquerquePunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.shamrock {
+    top: -12rem;
+    left: 19rem;
+}
+.shamrockPunto {
+    top: -14.4rem;
+    left: 20.5rem;
+    font-size: 2rem;
+    color: orange;
+}
+.shamrockPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.oklahomaCity {
+    top: -17rem;
+    left: 23rem;
+}
+.oklahomaCityPunto {
+    top: -14rem;
+    left: 25rem;
+    font-size: 2rem;
+    color: orange;
+}
+.oklahomaCityPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.springfield {
+    top: -18rem;
+    left: 27rem;
+}
+.springfieldPunto {
+    top: -17rem;
+    left: 32.3rem;
+    font-size: 2rem;
+    color: orange;
+}
+.springfieldPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.chicago {
+    top: -25rem;
+    left: 33rem;
+}
+.chicagoPunto {
+    top: -24rem;
+    left: 34.4rem;
+    font-size: 2rem;
+    color: orange;
+}
+.chicagoPunto:hover {
+    transform: scale(1.5);
+    color: brown;
+}
+
+.cartelRuta66 {
+    height: 5rem;
+    max-width: 5rem;
+    top: -23rem;
+    left: -2rem;
+}
+.cartelAuto {
+    max-height: 10rem;
+    max-width: 10rem;
+    top: -20rem;
+    left: 30rem;
+}
+.banderaUSA {
+    max-height: 10rem;
+    max-width: 10rem;
+    top: -30rem;
+    left: -5rem;
+    transform: rotate(-30deg)
+}
+
+
+.sectionLosAngeles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/granero/museo/los\ angeles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lineaCentro {
+    height: 100vh;
+}
+
+.lineaImagen {
+    position: absolute;
+}
+.tituloCiudad {
+    top: -55rem;
+    left: 23rem;
+    color: white;
+}
+
+.cajaTitulo {
+    width: 30rem;
+    height: 10rem;
+    border: 0.5rem solid white;
+    background-color: #015d52;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+}
+.cajaTitulo h2 {
+    color: white;
+}
+.objetosCartel {   
+    transform: rotate(269deg);
+    width: 4rem;
+    height: 3rem;
+    margin-right: 2rem;
+}
+.objetosCartel2 {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 2rem;
+}
+.cajaContenido {
+    width: 40rem;
+    margin: 2rem;
+    color: white;
+}
+.informacionCiudad {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.3); /* Fondo oscuro con un valor de opacidad para controlar la oscuridad */
+    backdrop-filter: blur(10px);
+}
+
+.imgCarousel {
+    width: 30rem;
+    height: 20rem;
+}

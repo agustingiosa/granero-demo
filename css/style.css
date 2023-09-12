@@ -6453,6 +6453,7 @@ nav a#pull {
 }
 
 .tituloPrincipal {
+  font-size: 5rem;
   margin-bottom: 1rem;
   transform: rotate(-5deg);
   transform-origin: center;
@@ -6531,6 +6532,16 @@ nav a#pull {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: rgba(10, 10, 10, .65);
+  }
+  #pb-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pb-2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
