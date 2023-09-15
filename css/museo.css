@@ -236,3 +236,29 @@
     width: 30rem;
     height: 20rem;
 }
+
+.scrollbar-container {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    position: relative;
+}
+
+.scrollbar-count {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: white;
+}
+
+.imagenScroll {
+    width: 1.5rem;
+}

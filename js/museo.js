@@ -19,3 +19,39 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+let lastScrollTop = 0;
+let totalScroll = 0;
+
+// Función para manejar el evento de desplazamiento
+function handleScroll() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Si el usuario se desplaza hacia abajo, incrementa el contador.
+    // Si el usuario se desplaza hacia arriba, decrementa el contador.
+    if (scrollTop > lastScrollTop) {
+        totalScroll += scrollTop - lastScrollTop;
+    } else {
+        totalScroll -= lastScrollTop - scrollTop;
+    }
+
+    // Asegurarse de que el contador nunca sea negativo.
+    if (totalScroll < 0) {
+        totalScroll = 0;
+    }
+
+    lastScrollTop = scrollTop;
+    updateCount();
+}
+
+// Función para actualizar el contador
+function updateCount() {
+    const scrollCount = document.getElementById('scroll-count');
+    scrollCount.textContent = totalScroll;
+}
+
+// Agregamos el evento de desplazamiento al objeto global 'window'
+window.addEventListener('scroll', handleScroll);
+
+// Llamamos a la función de actualización inicialmente
+updateCount();
