@@ -6525,7 +6525,7 @@ nav a#pull {
     flex-direction: column;
   }
   .primerPagina {
-    height: 20rem;
+    height: 25rem;
     width: 25rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -6545,14 +6545,23 @@ nav a#pull {
   }
 }
 
+@media screen and (max-width:414px){
+  .primerPagina h1 {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (max-width:410px){
   .primerPagina {
-    height: 20rem;
+    height: 25rem;
     width: 20rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: rgba(10, 10, 10, .65);
+  }
+  .primerPagina h1 {
+    font-size: 3rem;
   }
 }
