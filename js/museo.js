@@ -55,3 +55,17 @@ window.addEventListener('scroll', handleScroll);
 
 // Llamamos a la función de actualización inicialmente
 updateCount();
+
+
+const botMapa = document.querySelector('.botMapa');
+const lineaDeTiempo = document.querySelector('.lineaDeTiempo');
+
+botMapa.addEventListener('click', function() {
+    if (lineaDeTiempo.style.display === 'block') {
+        lineaDeTiempo.style.display = 'none'
+    } else {
+        lineaDeTiempo.style.display = 'block'
+    }
+});
+
+

@@ -1,5 +1,5 @@
 
-.imagenUSA img{
+.imagenUSA img {
     position: relative;
     width: 55rem;
 }
@@ -15,6 +15,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 4rem;
 }
 
 .enlaces-fijos {
@@ -24,20 +25,24 @@
 .enlace {
     position: absolute;
     text-decoration: none;
-    color: black; /* Color del texto de los enlaces */
-    padding: 5px 10px; /* Espaciado opcional alrededor de los enlaces */
+    color: black;
+    /* Color del texto de los enlaces */
+    padding: 5px 10px;
+    /* Espaciado opcional alrededor de los enlaces */
     font-size: 1.2rem;
 }
 
 .losAngeles {
     top: -13.5rem;
 }
+
 .losAngelesPunto {
     top: -16.1rem;
     left: 3.3rem;
     font-size: 2rem;
     color: orange;
 }
+
 .losAngelesPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -47,12 +52,14 @@
     top: -21rem;
     left: 6rem;
 }
+
 .lasVegasPunto {
     top: -17.4rem;
     left: 6.6rem;
     font-size: 2rem;
     color: orange;
 }
+
 .lasVegasPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -62,12 +69,14 @@
     top: -15rem;
     left: 9rem;
 }
+
 .flagstaffPunto {
     top: -17.7rem;
     left: 10rem;
     font-size: 2rem;
     color: orange;
 }
+
 .flagstaffPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -77,12 +86,14 @@
     top: -18rem;
     left: 14rem;
 }
+
 .alburquerquePunto {
     top: -16.3rem;
     left: 16rem;
     font-size: 2rem;
     color: orange;
 }
+
 .alburquerquePunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -92,12 +103,14 @@
     top: -12rem;
     left: 19rem;
 }
+
 .shamrockPunto {
     top: -14.4rem;
     left: 20.5rem;
     font-size: 2rem;
     color: orange;
 }
+
 .shamrockPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -107,12 +120,14 @@
     top: -17rem;
     left: 23rem;
 }
+
 .oklahomaCityPunto {
     top: -14rem;
     left: 25rem;
     font-size: 2rem;
     color: orange;
 }
+
 .oklahomaCityPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -122,12 +137,14 @@
     top: -18rem;
     left: 27rem;
 }
+
 .springfieldPunto {
     top: -17rem;
     left: 32.3rem;
     font-size: 2rem;
     color: orange;
 }
+
 .springfieldPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -137,12 +154,14 @@
     top: -25rem;
     left: 33rem;
 }
+
 .chicagoPunto {
     top: -24rem;
     left: 34.4rem;
     font-size: 2rem;
     color: orange;
 }
+
 .chicagoPunto:hover {
     transform: scale(1.5);
     color: brown;
@@ -154,12 +173,14 @@
     top: -23rem;
     left: -2rem;
 }
+
 .cartelAuto {
     max-height: 10rem;
     max-width: 10rem;
     top: -20rem;
     left: 30rem;
 }
+
 .banderaUSA {
     max-height: 10rem;
     max-width: 10rem;
@@ -179,6 +200,46 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 4rem;
+}
+
+.sectionLasVegas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://images8.alphacoders.com/747/747950.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.sectionChicago{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://www.tastingtable.com/img/gallery/20-best-restaurants-in-chicago-ranked/l-intro-1677774493.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.informacionCiudadChicago{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: ghostwhite;
+    border: 0.1rem solid black;
+    margin-bottom: 3rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.informacionCiudadChicago p {
+    width: 50rem;
 }
 
 .lineaCentro {
@@ -188,6 +249,7 @@
 .lineaImagen {
     position: absolute;
 }
+
 .tituloCiudad {
     top: -55rem;
     left: 23rem;
@@ -203,38 +265,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 2%;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem
 }
+
 .cajaTitulo h2 {
     color: white;
 }
-.objetosCartel {   
+
+.objetosCartel {
     transform: rotate(269deg);
     width: 4rem;
     height: 3rem;
     margin-right: 2rem;
 }
+
 .objetosCartel2 {
     width: 4rem;
     height: 4rem;
     margin-left: 2rem;
 }
+
 .cajaContenido {
-    width: 40rem;
+    width: 23rem;
     margin: 2rem;
-    color: white;
+    color: black;
+
 }
+
 .informacionCiudad {
     margin-top: 4rem;
     display: flex;
     flex-direction: row;
-    background: rgba(0, 0, 0, 0.3); /* Fondo oscuro con un valor de opacidad para controlar la oscuridad */
-    backdrop-filter: blur(10px);
-}
-
-.imgCarousel {
-    width: 30rem;
-    height: 20rem;
+    background-color: ghostwhite;
+    border: 0.1rem solid black;
+    margin-bottom: 3rem;
+    border-radius: 2rem 2rem 2rem 2rem;
 }
 
 .scrollbar-container {
@@ -261,4 +326,229 @@
 
 .imagenScroll {
     width: 1.5rem;
+}
+
+.contenedor-galeria {
+    width: 50rem;
+    height: 320px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    margin: 2rem;
+}
+
+.contenedor-galeria ul {
+    width: 2000px;
+}
+
+.contenedor-galeria li {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+.contenedor-galeria ul:hover li {
+    width: 40px;
+    filter: brightness(50%);
+}
+
+.contenedor-galeria ul li:hover {
+    width: 640px;
+    filter: brightness(100%);
+}
+
+.contenedor-galeria li img {
+    display: block;
+    width: 640px;
+    height: 100%;
+}
+
+.titulo-imagen {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: block;
+    transition: all 0.5s ease;
+    animation: cambia-color 10s linear infinite;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8));
+    background-size: 400% 400%;
+}
+
+@keyframes cambia-color {
+    0% {
+        background-position: 0%, 50%;
+    }
+
+    50% {
+        background-position: 100%, 50%;
+    }
+
+    100% {
+        background-position: 0%, 100%;
+    }
+}
+
+.titulo-imagen a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 19px;
+    text-shadow: 0 1px 2px #000;
+    transition: all 0.5s ease;
+}
+
+.contenedor-galeria ul li:hover .titulo-imagen {
+    top: 0%;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-imagen:hover a {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.titulo-imagen:active {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.bordesCidudades {
+    position: relative;
+    border-bottom: none;
+    /* Eliminar el borde inferior predeterminado */
+
+    /* Agregar imagen de fondo al borde */
+    background-image: url('../images/granero/diseños/cuadradito.png');
+    background-repeat: repeat-x;
+    /* Repetir la imagen horizontalmente */
+    background-position: bottom center;
+    /* Posicionar la imagen en la parte inferior */
+    background-size: auto 2rem;
+    /* Ajustar el tamaño de la imagen */
+}
+
+.bordesCidudades::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* Colocar el borde en la parte inferior */
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    /* Altura del borde */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo oscuro transparente */
+    z-index: 1;
+    background-image: url('../images/granero/diseños/cuadradito.png');
+    background-repeat: repeat-x;
+    /* Repetir la imagen horizontalmente */
+    background-position: bottom center;
+    /* Posicionar la imagen en la parte inferior */
+    background-size: auto 2rem;
+    /* Ajustar el tamaño de la imagen */
+}
+
+.botMapa {
+    display: none;
+    position: fixed;
+    bottom: 6rem;
+    /* Ajusta la distancia desde la parte inferior según tu preferencia */
+    right: 30px;
+    padding: 10px 20px;
+    background-color: rgba(227, 0, 14, .95);
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+.botMapa:hover {
+    background-color: rgba(10, 10, 10, .65);
+}
+
+.imagenBotonMapa {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    padding: 1px 0px;
+}
+
+.lineaDeTiempo {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    border-top: 0.3rem solid  gray;
+    padding: 10px;
+    
+    z-index: 2;
+    width: 50rem;
+    height: 3rem;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punto {
+    margin-left:3rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 20px;
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lineaCiudades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colorAmarillo {
+    color: orange;
+}
+
+.miniCartel {
+    background-color: #015d52;
+    border: 1px solid white;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    width: 6.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punto-activo {
+    background-color: #ff0000; /* Cambia el color según tus preferencias */
+    transform: scale(1.2); /* Cambia el tamaño o los estilos según tus preferencias */
 }
