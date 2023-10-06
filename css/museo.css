@@ -1,4 +1,3 @@
-
 .imagenUSA img {
     position: relative;
     width: 55rem;
@@ -160,6 +159,25 @@
     left: 34.4rem;
     font-size: 2rem;
     color: orange;
+    animation: agrandarAchicar 1s infinite alternate, cambiarColor 1s infinite alternate;
+}
+
+@keyframes agrandarAchicar {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes cambiarColor {
+    0% {
+        color: orange;
+    }
+    100% {
+        color: brown;
+    }
 }
 
 .chicagoPunto:hover {
@@ -216,7 +234,33 @@
     padding-bottom: 4rem;
 }
 
-.sectionChicago{
+.sectionSpringfield {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://live.staticflickr.com/3284/3004217110_86df681011_b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.sectionOklahoma {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res40/258000/258564-Oklahoma-City.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.sectionChicago {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -229,7 +273,46 @@
     padding-bottom: 4rem;
 }
 
-.informacionCiudadChicago{
+.sectionTexas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/09/21/57/texas-1581901_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.sectionAlburquerque {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Albuquerque-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.sectionFlagstaff {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://flagstaff.momcollective.com/wp-content/uploads/2021/04/Flagstaff-Mom-Collective-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 4rem;
+}
+
+.informacionCiudadChicago {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -238,6 +321,7 @@
     margin-bottom: 3rem;
     border-radius: 2rem 2rem 2rem 2rem;
 }
+
 .informacionCiudadChicago p {
     width: 50rem;
 }
@@ -367,7 +451,7 @@
 .contenedor-galeria li img {
     display: block;
     width: 640px;
-    height: 100%;
+    height: 340px;
 }
 
 .titulo-imagen {
@@ -501,20 +585,22 @@
     display: none;
     position: fixed;
     bottom: 1rem;
-    border-top: 0.3rem solid  gray;
+    border-top: 0.3rem solid gray;
     padding: 10px;
-    
+
     z-index: 2;
     width: 50rem;
     height: 3rem;
 }
-.centrado{
+
+.centrado {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .punto {
-    margin-left:3rem ;
+    margin-left: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -549,6 +635,8 @@
 }
 
 .punto-activo {
-    background-color: #ff0000; /* Cambia el color según tus preferencias */
-    transform: scale(1.2); /* Cambia el tamaño o los estilos según tus preferencias */
+    background-color: #ff0000;
+    /* Cambia el color según tus preferencias */
+    transform: scale(1.2);
+    /* Cambia el tamaño o los estilos según tus preferencias */
 }
