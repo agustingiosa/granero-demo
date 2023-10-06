@@ -194,7 +194,7 @@
 
   .navik-menu ul.top-list { margin-top: 15px; }
 
-  .navik-menu ul li > a, #header-3 .navik-menu ul li > a { font-size: 20px; background-color: rgba(160, 160, 160, .05); margin-bottom: 7px; }
+  .navik-menu ul li > a, #header-3 .navik-menu ul li > a { font-size: 20px; background-color: white; margin-bottom: 7px; }
   .navik-menu ul li.basket-ico > a { margin-bottom: 10px; }
 
   .navik-menu ul ul li > a, #header-3 .navik-menu ul ul li > a { font-size: 18px; }
