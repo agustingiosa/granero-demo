@@ -6371,6 +6371,57 @@ nav a#pull {
 
 .contadorTienda {
   color: white;
+  margin-bottom: 2rem;
+}
+
+.spider-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.spider {
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/granero/halloween/Arana_vector_png.png);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 2rem; /* Alinea a la derecha */
+  animation: spiderAnimation 4s ease-in-out infinite;
+  z-index: 2;
+}
+
+.trail {
+  width: 0.1rem;
+  height: 100rem;
+  background-color: white; /* Color de la estela */
+  position: fixed;
+  top: 0;
+  right: 3.5rem; /* Alinea a la derecha */
+  opacity: 0; /* Inicialmente invisible */
+  animation: trailAnimation 4s ease-in-out infinite;
+  z-index: 2; /* Detrás de la araña */
+}
+
+@keyframes spiderAnimation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(50vh); /* Cambia la distancia de caída ajustando este valor */
+  }
+}
+
+@keyframes trailAnimation {
+  0%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+      top: -99rem;
+  }
+  50% {
+      transform: translateY(50vh); /* Cambia la distancia de caída ajustando este valor */
+  }
 }
 
 .horariosUbicacion{
