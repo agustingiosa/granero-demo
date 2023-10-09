@@ -1322,7 +1322,6 @@ span.item-code {
   03. PRELOAD SPINNER
   =========================================================================== */
 
-
   #loader-wrapper {
     position: fixed;
     top: 0;
@@ -1330,7 +1329,7 @@ span.item-code {
     width: 100%;
     height: 100%;
     z-index: 9999999;
-    background-color: #f5f5f5;
+    background-color: #02011c;
     display: flex;
     justify-content: center;
     align-items: center;
