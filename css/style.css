@@ -18,6 +18,11 @@
   src: url('../fonts/AIR\ AMERICANA.TTF') format('truetype'); /* Ajusta la ruta y el formato del archivo */
 }
 
+@font-face {
+  font-family: 'halloween';
+  src: url('../fonts/mrsmonster.ttf');
+}
+
 
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
@@ -394,7 +399,7 @@ h3.h3-xl { font-size: 3rem; }       /* 48px */
 h2.h2-xs { font-size: 3.125rem; }   /* 50px */
 h2.h2-sm { font-size: 3.25rem; }    /* 52px */
 h2.h2-md { font-size: 3.375rem; }   /* 54px */
-h2.h2-lg { font-size: 3.5rem; color: white; }     /* 56px */ 
+h2.h2-lg { font-size: 3.5rem; color: white; font-family: halloween; }     /* 56px */ 
 h2.h2-xl { font-size: 3.75rem; }    /* 60px */
 
 /*------------------------------------------*/
@@ -543,8 +548,15 @@ ul.txt-list {
 .red-hover:hover, 
 .scroll .red-hover:hover, 
 .white-color .red-hover:hover {
-  color: #fff!important;
+  color: #fff !important;
   background-color: #fe961a;
+  background-image: url(../images/granero/halloween/580b57fbd9996e24bc43bc75.png);
+  background-size: 10rem 8rem;
+  background-position: top right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
 }
 
 .btn-tra-red, 
@@ -553,7 +565,6 @@ ul.txt-list {
 .tra-red-hover:hover, 
 .scroll .tra-red-hover:hover, 
 .white-color .tra-redhover:hover {
-  
   background-color: transparent;
   border-color: orange!important;
 }
@@ -2070,10 +2081,12 @@ span.ico-holder {
   font-style: normal;
   text-transform: inherit;
   padding: 14px 8px;
+  
 }
 
 #header-3 .navik-menu ul ul li > a {
   font-size: 15px;
+  color: #000;
 }
 
 /*------------------------------------------*/
