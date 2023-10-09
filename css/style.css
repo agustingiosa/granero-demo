@@ -284,7 +284,7 @@ body {
 
 .rel { 
   position: relative!important; 
-  background-color: rgb(65, 5, 65);
+  background-color: #77477e;
 }
 
 /*------------------------------------------*/
@@ -305,7 +305,7 @@ body {
 .bg-salmon { background-color: #e84e1d; }
 .bg-silk { background-color: #fbf7e8; }
 .bg-wine { background-color: #831619; }
-.bg-yellow { background-color: #f7be27; }
+.bg-yellow { background-color: #ffc525; }
 
 /*------------------------------------------*/
 /*  Background Images for Sections
@@ -412,7 +412,7 @@ p.p-xl { font-size: 1.25rem; }     /* 20px */
 /*------------------------------------------*/
 
 a {
-  color: #333;
+  color: white;
   text-decoration: none;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
@@ -544,8 +544,7 @@ ul.txt-list {
 .scroll .red-hover:hover, 
 .white-color .red-hover:hover {
   color: #fff!important;
-  background-color: orange;
-  border-color: orangered!important;
+  background-color: #fe961a;
 }
 
 .btn-tra-red, 
@@ -610,8 +609,8 @@ ul.txt-list {
 .scroll .yellow-hover:hover, 
 .white-color .yellow-hover:hover {
   color: #333435!important;
-  background-color: #f7be27;
-  border-color: #f7be27!important;
+  background-color: #ffef4a;
+  border-color: #ffef4a!important;
 }
 
 /*------------------------------------------*/
@@ -799,7 +798,7 @@ ul.txt-list {
 .grey-color i, 
 .white-color .grey-color,
 .lightgrey-color .grey-color, 
-.grey-color span { color: orange; }
+.grey-color span { color: #ffc525; }
 
 .lightgrey-color,
 .lightgrey-color h2, 
@@ -904,7 +903,7 @@ ul.txt-list {
 .red-color i, 
 .white-color .red-color,
 .brown-color .red-color,
-.red-color span { color: orangered; }
+.red-color span { color: #ffc525; }
 
 .wine-color,
 .wine-color h2, 
@@ -1187,7 +1186,7 @@ span.item-code {
 /*------------------------------------------*/
 
 .add-to-cart.bg-yellow:hover {
-   background-color: #f5b200!important;
+   background-color: #ffc525!important;
 }
 
 .add-to-cart.bg-salmon:hover {
@@ -1912,6 +1911,7 @@ span.item-code {
   background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5)100%);
   background-size: cover;
   box-shadow: 0 0 4rem rgba(0, 0, 0, 2);
+  background-color: #02011c;
 }
 
 @media (max-width: 1200px) {
@@ -5265,7 +5265,7 @@ select:-webkit-autofill:focus {
 /*------------------------------------------*/
 
 .footer h5 {
-  color: #283034;
+  color: white;
   line-height: 1;
   margin-bottom: 25px;
 }
@@ -5398,6 +5398,10 @@ select:-webkit-autofill:focus {
   border-top: 1px solid #ddd;
   margin-top: 30px;
   padding-top: 40px;
+}
+
+.footer p {
+  color: white;
 }
 
 #footer-2 .bottom-footer {
