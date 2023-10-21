@@ -1,5 +1,3 @@
-
-
 .imagenUSA img {
     position: relative;
     width: 55rem;
@@ -186,6 +184,7 @@
     0% {
         transform: scale(1);
     }
+
     100% {
         transform: scale(1.5);
     }
@@ -195,6 +194,7 @@
     0% {
         color: orange;
     }
+
     100% {
         color: brown;
     }
@@ -226,6 +226,163 @@
     left: -5rem;
     transform: rotate(-30deg)
 }
+
+@media (max-width: 1337px) {
+    .informacionCiudad {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .informacionCiudad .cajaContenido {
+        width: 50rem;
+    }
+}
+
+
+@media (max-width: 960px) {
+
+    .imagenUSA img {
+        position: relative;
+        width: 40rem;
+    }
+
+    .miniCartelMapa {
+        font-size: 0.7rem;
+    }
+
+    .losAngeles {
+        top: -9rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .losAngelesPunto {
+        top: -12.1rem;
+        left: 1.8rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+
+    .lasVegas {
+        top: -14.4rem;
+        left: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .lasVegasPunto {
+        top: -13.1rem;
+        left: 4.5rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+
+    .flagstaff {
+        top: -14.4rem;
+        left: 8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .flagstaffPunto {
+        top: -13.3rem;
+        left: 7.5rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+
+    .alburquerque {
+        top: -9rem;
+        left: 9rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .alburquerquePunto {
+        top: -12.4rem;
+        left: 11rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+
+    .shamrock {
+        top: -12rem;
+        left: 15rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .shamrockPunto {
+        top: -11rem;
+        left: 14.6rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+
+    .oklahomaCity {
+        top: -7.5rem;
+        left: 16rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .oklahomaCityPunto {
+        top: -10.6rem;
+        left: 18rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+
+    .springfield {
+        top: -11rem;
+        left: 25.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .springfieldPunto {
+        top: -13rem;
+        left: 23.3rem;
+        font-size: 2rem;
+        color: orange;
+    }
+
+    .chicago {
+        top: -19rem;
+        left: 22rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .chicagoPunto {
+        top: -18rem;
+        left: 24.5rem;
+        font-size: 2rem;
+        color: orange;
+        animation: agrandarAchicar 1s infinite alternate, cambiarColor 1s infinite alternate;
+    }
+
+    .cartelAuto {
+        max-height: 7rem;
+        max-width: 7rem;
+        top: -22rem;
+        left: 20rem;
+    }
+
+    .banderaUSA {
+        max-height: 10rem;
+        max-width: 10rem;
+        top: -22rem;
+        left: -5rem;
+        transform: rotate(30deg)
+    }
+}
+
+@media (max-width: 890px) {
+    .contenedor-galeria{
+        display: none;
+    }
+    
+}
+
 
 
 .sectionLosAngeles {
