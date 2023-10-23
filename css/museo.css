@@ -376,12 +376,45 @@
     }
 }
 
+
+
 @media (max-width: 890px) {
     .contenedor-galeria{
         display: none;
     }
+    .cajaContenido {
+        display: none;
+    }
+    .cajaCiudadCelu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: white;
+        width: 40rem;
+        height: 30rem;
+        
+    }
+    .infoCiudad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoCiudad p {
+        display: flex;
+    }
+    .fotosCiudad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotosCiudad img {
+        width: 10rem;
+        height: 10rem;
+    }
     
 }
+
 
 
 
