@@ -233,6 +233,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .informacionCiudad .cajaContenido {
         width: 50rem;
     }
@@ -374,6 +375,8 @@
         left: -5rem;
         transform: rotate(30deg)
     }
+
+    
 }
 
 .cajaCiudadCelu {
@@ -381,13 +384,15 @@
 }
 
 @media (max-width: 890px) {
-    .contenedor-galeria{
+    .contenedor-galeria {
         display: none;
     }
+
     .cajaContenido {
         display: none;
     }
-    .cajaCiudadCelu{
+
+    .cajaCiudadCelu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -398,32 +403,38 @@
         border-radius: 2rem 2rem 2rem 2rem;
         border: 0.1rem solid black;
     }
+
     .infoCiudad {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
+
     .infoCiudad p {
         display: flex;
-        
+
     }
+
     .textoCelu {
         font-size: 0.7rem;
         width: 14rem;
         text-align: justify;
     }
+
     .fotosCiudad {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .fotosCiudad img {
         width: 7rem;
         height: 7rem;
         margin: 1rem;
     }
+
     .informacionCiudadChicago p {
         width: 14rem !important;
         font-size: 0.7rem;
@@ -575,7 +586,7 @@
 }
 
 @media (max-width: 513px) {
-    .cajaCiudadCelu{
+    .cajaCiudadCelu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -586,7 +597,7 @@
         border-radius: 2rem 2rem 2rem 2rem;
         border: 0.1rem solid black;
     }
-    
+
 }
 
 @media (max-width: 489px) {
@@ -734,8 +745,12 @@
     .cajaTitulo {
         max-width: 22rem;
     }
-    
-    .cajaCiudadCelu{
+
+    .cajaTitulo h2 {
+        font-size: 1.5rem;
+    }
+
+    .cajaCiudadCelu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1193,4 +1208,59 @@
     /* Cambia el color según tus preferencias */
     transform: scale(1.2);
     /* Cambia el tamaño o los estilos según tus preferencias */
+}
+
+@media (max-width: 960px) {
+    .lineaDeTiempo {
+        max-width: 36rem;
+        padding-top: 5px;
+    }
+
+    .punto {
+        max-width: 1rem;
+        max-height: 10rem;
+    }
+
+
+    .miniCartel {
+        max-width: 4.3rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 631px) {
+    .lineaDeTiempo {
+        max-width: 30rem;
+        padding-top: 5px;
+    }
+
+    .punto {
+        max-width: 0.1rem;
+        max-height: 10rem;
+    }
+
+
+    .miniCartel {
+        max-width: 3.2rem;
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 552px) {
+    .lineaDeTiempo {
+        max-width: 26rem;
+        padding-top: 5px;
+    }
+
+    .punto {
+        width: 0.001rem;
+        margin-left: 2.2rem;
+        max-height: 10rem;
+    }
+
+
+    .miniCartel {
+        max-width: 3rem;
+        font-size: 0.4rem;
+    }
 }
