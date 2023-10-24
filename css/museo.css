@@ -1226,12 +1226,14 @@
         max-width: 4.3rem;
         font-size: 0.6rem;
     }
+
 }
 
 @media (max-width: 631px) {
     .lineaDeTiempo {
         max-width: 30rem;
         padding-top: 5px;
+        top: 8rem;
     }
 
     .punto {
@@ -1262,5 +1264,9 @@
     .miniCartel {
         max-width: 3rem;
         font-size: 0.4rem;
+    }
+
+    .textoCelu {
+        height: 20rem;
     }
 }
