@@ -7795,16 +7795,24 @@ nav a#pull {
 
 .videoAuto {
   height: 100%;
+  
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.videoAuto video{
-  width: 100rem;
-  top: 1rem;
-  left: 1rem;
+
+#video-fondo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sectionMuseo {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
