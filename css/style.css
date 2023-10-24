@@ -7795,7 +7795,6 @@ nav a#pull {
 
 .videoAuto {
   height: 100%;
-  
   position: absolute;
   z-index: 2;
   display: flex;
@@ -7815,4 +7814,21 @@ nav a#pull {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.videoAuto h2 {
+  font-family: halloween;
+  color: white;
+}
+
+@media (max-width:621px) {
+  .videoAuto h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:478px) {
+  .videoAuto h2 {
+    font-size: 1.5rem;
+  }
 }
