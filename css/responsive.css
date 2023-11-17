@@ -1659,7 +1659,23 @@
 }
 
 
+@media screen and (max-width:475px) {
+  .sectionMuseo {
+    height:20rem;
+  }
+}
 
+@media screen and (max-width:459px) {
+  .sectionMuseo {
+    height:19rem;
+  }
+}
+
+@media screen and (max-width:429px) {
+  .sectionMuseo {
+    height:18rem;
+  }
+}
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
