@@ -6708,11 +6708,6 @@ nav a#pull {
   }
 }
 
-@media screen and (max-width:475px) {
-  .videoAuto {
-    height: 10rem;
-  }
-}
 
 @media screen and (max-width:414px) {
   .primerPagina h1 {
