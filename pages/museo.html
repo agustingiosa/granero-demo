@@ -117,6 +117,11 @@
 		</div>
 	</div>
 	<main>
+		<div id="popup" class="popup">
+			<img id="popup-image" class="popup-image" alt="">
+			<p id="popup-text" class="popup-text"></p>
+			<span class="close" onclick="closePopup()">&times;</span>
+		</div>
 		<div class="scrollbar-count">
 			<img class="imagenScroll" src="../images/granero/museo/cartel 66.webp" alt="">
 			<span id="scroll-count">0 </span>KM
@@ -181,13 +186,21 @@
 									abastecerse de suministros, prepararse para su viaje o simplemente descansar antes
 									de embarcarse</p>
 							</div>
+							
 							<div class="fotosCiudad">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/ch/2af94a274ebf7f6716f9b2068595581c.jpg" alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/ch/caption.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/ch/chicago-illinois-CHITG0221-e448062fc5164da0bba639f9857987f6.jpg"
-									alt="">
+								
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/ch/2af94a274ebf7f6716f9b2068595581c.jpg', 'El Chicago Bean es una escultura ubicada en el Millennium Park de Chicago, conocida oficialmente como Cloud Gate. Diseñada por el escultor Anish Kapoor, fue completada en 2006. La escultura, hecha de acero inoxidable pulido, tiene una forma redonda y cóncava que refleja el paisaje urbano y el cielo de Chicago. Debido a su forma similar a un frijol, se le conoce coloquialmente como Bean. La superficie pulida actúa como un espejo, creando reflejos distorsionados y convirtiéndose en un símbolo emblemático de la ciudad. Los visitantes disfrutan interactuando con la escultura, tomando fotografías y apreciando las vistas de la ciudad que ofrece. Además de ser una atracción turística, el área alrededor de Cloud Gate sirve como espacio para eventos culturales en el Millennium Park.')">
+									<h3 class="blanco">Cloud gate</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/ch/2af94a274ebf7f6716f9b2068595581c.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/ch/caption.jpg', 'Chicago, la tercera ciudad más grande de Estados Unidos, se encuentra en las costas del lago Michigan. Famosa por su impresionante arquitectura, como la Torre Willis, y su escena musical influyente, especialmente en blues y jazz, la ciudad ofrece una rica experiencia cultural con museos destacados como el Art Institute of Chicago. Con equipos deportivos apasionados, parques emblemáticos como el Millennium Park y una economía sólida debido a su posición estratégica en el transporte, Chicago es también conocida por su gastronomía única, incluyendo la famosa pizza deep-dish y los hot dogs estilo Chicago. En resumen, Chicago es una ciudad diversa y vibrante que combina historia, cultura, deportes y una escena culinaria distintiva.')">
+									<h3 class="blanco" >Ciudad de Chicago</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/ch/caption.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/ch/chicago-illinois-CHITG0221-e448062fc5164da0bba639f9857987f6.jpg', 'La costa de Chicago, a lo largo del lago Michigan, ofrece un escape escénico y recreativo en medio de la ciudad. Con playas urbanas, extensos parques como Grant Park y atracciones como la Navy Pier, brinda oportunidades para actividades acuáticas, caminatas y relajación con vistas panorámicas. Durante los meses cálidos, las playas se llenan de vida con actividades y festivales, proporcionando un equilibrio entre la energía urbana y la serenidad natural.')">
+									<h3 class="blanco">Costa</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/ch/chicago-illinois-CHITG0221-e448062fc5164da0bba639f9857987f6.jpg"alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -266,10 +279,18 @@
 									hacía un punto de referencia icónico en el camino.</p>
 							</div>
 							<div class="fotosCiudad">
-								<img class="fotosCelu" src="../images/granero/ciudades/sp/627-1259_small.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/sp/Court_Square,_Springfield_MA.jpg" alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/sp/Springfield-MA.jpg" alt="">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/sp/627-1259_small.jpg', 'Springfield, la capital del estado de Illinois en Estados Unidos, es conocida por su importancia política y cultural. Albergando la Casa del Estado de Illinois, donde Abraham Lincoln sirvió como legislador, la ciudad destaca por su conexión histórica con el expresidente. Springfield ofrece museos dedicados a la vida de Lincoln, incluyendo su hogar y tumba. Además de su patrimonio histórico, la ciudad cuenta con parques, eventos culturales y una atmósfera que combina lo urbano con lo histórico.')">
+									<h3 class="blanco">Ciudad de Springfield</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/sp/627-1259_small.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/sp/Court_Square,_Springfield_MA.jpg', 'La Court Square en Springfield, Massachusetts, es una plaza histórica con tribunales, un monumento a la Guerra Civil, una fuente central y arquitectura histórica. Además de ser el sitio de edificios judiciales, la plaza acoge eventos comunitarios y refleja la rica historia de la ciudad.')">
+									<h3 class="blanco">Court Square</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/sp/Court_Square,_Springfield_MA.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/sp/198984902_TRAVEL-UST-ILLINOIS-SPRINGFIELD-1-DMT427131848_t800.jpg', 'La tumba de Abraham Lincoln se encuentra en el Cementerio Oak Ridge en Springfield, Illinois. Este sitio histórico alberga la tumba del decimosexto presidente de los Estados Unidos, así como la de su esposa Mary Todd Lincoln y tres de sus hijos. La tumba, con un diseño solemne, es un lugar significativo que atrae a visitantes de todo el mundo para rendir homenaje a la memoria de Lincoln y su papel histórico en la abolición de la esclavitud y la dirección durante la Guerra Civil')">
+									<h3 class="blanco">Springfield</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/sp/198984902_TRAVEL-UST-ILLINOIS-SPRINGFIELD-1-DMT427131848_t800.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -341,11 +362,18 @@
 									viajeros que exploran la Ruta 66 en busca de su rica historia y cultura.</p>
 							</div>
 							<div class="fotosCiudad">
-								<img class="fotosCelu" src="../images/granero/ciudades/ok/258564-Oklahoma-City.jpg"
-									alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/ok/Oklahoma-City-1.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/ok/catedral vieja catolica de san jose.jpg" alt="">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/ok/258564-Oklahoma-City.jpg', 'Oklahoma City, la capital de Oklahoma, destaca por su robusta economía centrada en sectores como la energía y la aviación. Conocida por el Memorial Nacional de Oklahoma City que conmemora el trágico atentado de 1995, la ciudad ofrece una escena cultural diversa, entretenimiento en el distrito de Bricktown y equipos deportivos como los Thunder. Los parques y espacios verdes proporcionan opciones recreativas, y el clima continental marca veranos calurosos e inviernos moderadamente fríos. En resumen, Oklahoma City combina crecimiento económico, historia y diversas opciones de entretenimiento.')">
+									<h3 class="blanco">Oklahoma city</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/ok/258564-Oklahoma-City.jpg"alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/ok/Oklahoma-City-1.jpg', 'La vida nocturna en Oklahoma City es diversa y ofrece varias opciones para residentes y visitantes. Bricktown es conocido por su animado ambiente nocturno, con numerosos bares, restaurantes y lugares de entretenimiento. La escena incluye bares y pubs con enfoques desde música en vivo hasta cervezas artesanales. Además, la ciudad cuenta con casinos, eventos especiales, opciones de entretenimiento en vivo y lugares para disfrutar de la música y las artes escénicas. La vida nocturna también se complementa con restaurantes que permanecen abiertos hasta tarde, brindando opciones gastronómicas a los noctámbulos.')">
+									<h3 class="blanco"></h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/ok/Oklahoma-City-1.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/ok/catedral vieja catolica de san jose.jpg', 'La Catedral Católica de San José en Oklahoma City, ubicada en el centro de la ciudad, es la catedral principal de la Diócesis de Oklahoma City. Construida a finales del siglo XIX y dedicada en 1905, presenta una arquitectura con elementos románicos y ha experimentado renovaciones a lo largo de los años. La catedral sirve como el principal lugar de celebraciones litúrgicas y servicios religiosos para la comunidad católica local. Además, funciona como un centro comunitario para eventos sociales, educativos y caritativos.')">
+									<h3 class="blanco">Catedral de san jose</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/ok/catedral vieja catolica de san jose.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -418,11 +446,21 @@
 									buscan explorar su legado.</p>
 							</div>
 							<div class="fotosCiudad">
-								<img class="fotosCelu" src="../images/granero/ciudades/tx/amarillo texas.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/tx/cadillac ranch amarillo texas.jpg" alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/tx/Big Bend National Park.webp"
-									alt="">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/tx/amarillo texas.jpg', 'Amarillo tiene una conexión especial con la Ruta 66, destacando lugares emblemáticos como el Big Texan Steak Ranch, famoso por su desafío de la 72 oz Steak, y el histórico U-Drop Inn, una estación de servicio art déco. El centro histórico de Amarillo preserva la esencia de la era de la Ruta 66 con edificios restaurados. Además, la ciudad cuenta con tramos del antiguo pavimento de la Ruta 66. Estos elementos contribuyen a la identidad y el atractivo turístico de Amarillo como un destino histórico en la famosa carretera.')">
+									<h3 class="blanco">Amarillo, texas</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/tx/amarillo texas.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/tx/cadillac ranch amarillo texas.jpg', 'El Cadillac Ranch es una famosa instalación de arte cerca de Amarillo, Texas, a lo largo de la Ruta 66. Creado en 1974, consiste en diez automóviles Cadillac enterrados en posición vertical en un campo, con los morros apuntando hacia el suelo. Los visitantes pueden pintar y graffitear los autos, convirtiendo la instalación en una obra de arte colectiva en constante evolución. Este sitio se ha convertido en un icono cultural y un destino popular para los amantes del arte contemporáneo y los viajeros. Accessible las 24 horas y de acceso gratuito, el Cadillac Ranch representa la relación entre la libertad y la movilidad en la cultura automovilística estadounidense.')">
+									<h3 class="blanco">Cadillac ranch amarillo</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/tx/cadillac ranch amarillo texas.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/tx/Big Bend National Park.webp', 'Big Bend National Park, ubicado en el suroeste de Texas, es un vasto parque que abarca una variedad de paisajes, desde cañones hasta montañas y extensiones desérticas. Destacan las Chisos Mountains, Santa Elena Canyon y el histórico Hot Springs District. Con una diversidad sorprendente de flora y fauna, el parque ofrece actividades al aire libre como senderismo, campamento y observación de aves. Reconocido por sus cielos oscuros, es un lugar destacado para la observación de estrellas. La experiencia en Big Bend es única, brindando una conexión cercana con la naturaleza en un entorno impresionante.')">
+									<h3 class="blanco">Big Bend National Park</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/tx/Big Bend National Park.webp"alt="">
+								</div>
+								
+								
+								
 							</div>
 						</div>
 					</div>
@@ -495,12 +533,18 @@
 									clave de interés para aquellos que exploran esta histórica carretera.</p>
 							</div>
 							<div class="fotosCiudad">
-								<img class="fotosCelu" src="../images/granero/ciudades/alb/ciudad.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/alb/festival de globos albuquerque.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/alb/iglesia san felipe de neri old town albuquerque.jpg"
-									alt="">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/alb/ciudad.jpg', 'Albuquerque, la ciudad más grande de Nuevo México, destaca por su rica historia y cultura influenciada por las tradiciones nativas americanas, españolas y mexicanas. Famosa por el Festival Internacional de Globos Aerostáticos, ofrece vistas impresionantes de las Sandía Mountains y alberga la histórica Ruta 66. Con su animado Viejo Town, galerías de arte en el Sawmill District y parques, la ciudad combina tradición y modernidad. Además, es sede de instituciones académicas como la Universidad de Nuevo México. El clima semiárido y las atracciones únicas hacen de Albuquerque un destino atractivo y diverso.')">
+									<h3 class="blanco">Ciudad de Alburquerque</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/alb/ciudad.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/alb/festival de globos albuquerque.jpg', 'El Festival Internacional de Globos Aerostáticos de Albuquerque es un evento anual destacado que atrae a cientos de pilotos de globos aerostáticos de todo el mundo. Celebrado a fines de octubre, el festival presenta lanzamientos masivos de globos al amanecer, con una variedad de globos de formas especiales que llenan el cielo. Además de los vuelos, el evento incluye actividades en tierra como música en vivo, eventos culinarios y espectáculos especiales. Con su combinación única de colores vibrantes y el hermoso paisaje de Nuevo México, el festival es una experiencia visualmente impactante y memorable para visitantes de todas partes.')">
+									<h3 class="blanco">Festival de globos</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/alb/festival de globos albuquerque.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/alb/iglesia san felipe de neri old town albuquerque.jpg', 'La Iglesia de San Felipe de Neri, construida en 1793, es una estructura histórica en Old Town, Albuquerque. Representa la influencia española colonial con su arquitectura de adobe y se mantiene como un lugar de culto activo. Ubicada en el corazón de Old Town, la iglesia forma parte de un área que conserva la apariencia del siglo XIX. Además de su función religiosa, la iglesia es escenario de eventos culturales y festividades. Ofrece vistas panorámicas desde su campanario y es un lugar emblemático para explorar la rica historia y cultura de Albuquerque.')">
+									<h3 class="blanco">Iglesia San Felipe</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/alb/iglesia san felipe de neri old town albuquerque.jpg"alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -577,10 +621,18 @@
 								</p>
 							</div>
 							<div class="fotosCiudad">
-								<img class="fotosCelu" src="../images/granero/ciudades/fla/crater.webp" alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/fla/flagstaff dowtown.jpg"
-									alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/fla/flagstaff winter.jpg" alt="">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/fla/crater.webp', 'El Cráter Barringer, también conocido como Cráter del Meteorito Barringer, es un impactante cráter de impacto de meteorito ubicado cerca de Flagstaff. Formado hace aproximadamente 50,000 años durante la colisión de un meteorito, el cráter tiene un diámetro de 1,200 metros y una profundidad de 170 metros. Abierto al público y administrado como una atracción turística, cuenta con un centro de visitantes, senderos de observación y ofrece información sobre su formación y la investigación científica relacionada. Además de su importancia geológica, el cráter es un testimonio visual impresionante de eventos cósmicos que han dado forma a la Tierra.')">
+									<h3 class="blanco">Cráter Barringer</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/fla/crater.webp" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/fla/flagstaff dowtown.jpg', 'El centro de Flagstaff, Arizona, es una encantadora área que refleja la rica historia de la ciudad, especialmente como parte de la Ruta 66. La Plaza Heritage Square es el corazón del centro, rodeada de tiendas, restaurantes y espacios para eventos. La arquitectura y atmósfera del centro evocan la época de la Ruta 66, con una mezcla de tiendas vintage y modernas. La escena cultural es diversa, con galerías de arte, teatros y una universidad cercana. La gastronomía variada, eventos comunitarios y fácil acceso a la naturaleza, incluyendo el Gran Cañón, hacen del centro de Flagstaff un destino atractivo y dinámico.')">
+									<h3 class="blanco">Flagstaff downtown</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/fla/flagstaff dowtown.jpg"alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/fla/flagstaff winter.jpg', 'Flagstaff en invierno se transforma en un destino atractivo con paisajes nevados y diversas actividades invernales. Rodeada de montañas, la ciudad ofrece oportunidades para el esquí y el snowboard en lugares como Arizona Snowbowl. El centro de Flagstaff se ilumina con luces festivas, creando un ambiente encantador durante la temporada navideña. Además de deportes de invierno, los amantes de la naturaleza pueden disfrutar de senderismo y raquetas de nieve. La ciudad alberga eventos especiales y festivales, y su designación como Ciudad Internacional de la Astronomía la convierte en un lugar ideal para la observación de estrellas en los cielos oscuros. Con temperaturas frías, es crucial estar preparado para el clima invernal. Flagstaff en invierno ofrece una experiencia única y diversa para residentes y visitantes.')">
+									<h3 class="blanco">Flagstaff en invierno</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/fla/flagstaff winter.jpg" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -653,12 +705,18 @@
 									diversión nocturna como para explorar su variedad de atracciones.</p>
 							</div>
 							<div class="fotosCiudad">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/lv/230705091855-05-msg-sphere-las-vegas-full-169.webp"
-									alt="">
-								<img class="fotosCelu" src="../images/granero/ciudades/lv/the-strip.jpg" alt="">
-								<img class="fotosCelu"
-									src="../images/granero/ciudades/lv/las-vegas_d.jpg.image.1296.974.high.webp" alt="">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/lv/230705091855-05-msg-sphere-las-vegas-full-169.webp', 'La MSG Sphere es un proyecto de entretenimiento en desarrollo en Las Vegas, diseñado por The Madison Square Garden Company. Esta arena futurista está planeada para ofrecer una experiencia inmersiva mediante tecnología avanzada, incluyendo una pantalla envolvente de alta resolución y sonido direccional. Ubicada cerca del Venetian Resort en Las Vegas Strip, diseñada para tener una capacidad considerable para albergar conciertos, eventos deportivos y otras experiencias de entretenimiento.')">
+									<h3 class="blanco">Las vegas sphere</h3>
+									<img src="../images/granero/ciudades/lv/230705091855-05-msg-sphere-las-vegas-full-169.webp"alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/lv/the-strip.jpg', 'Las Vegas, ubicada en el sur de Nevada, es famosa como la Capital del Entretenimiento Mundial. Conocida por sus extravagantes hoteles y casinos en el Strip, la ciudad es un epicentro de juegos de azar, espectáculos en vivo y vida nocturna vibrante. Sus icónicos resorts como el Bellagio y el Caesars Palace son reconocidos internacionalmente. Las Vegas ofrece una amplia gama de entretenimiento, desde actuaciones de artistas de renombre hasta bodas rápidas en sus famosas capillas. La ciudad también es conocida por su variada oferta gastronómica y eventos especiales a lo largo del año. Con un clima desértico y una atmósfera única, Las Vegas es un destino único y emocionante.')">
+									<h3 class="blanco">Ciudad de las Vegas</h3>
+									<img class="fotosCelu" src="../images/granero/ciudades/lv/the-strip.jpg" alt="">
+								</div>
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/lv/las-vegas_d.jpg.image.1296.974.high.webp', 'El letrero Welcome to Fabulous Las Vegas es una icónica señal ubicada en el extremo sur del Strip de Las Vegas. Diseñado por Betty Willis en 1959, este letrero retro y llamativo se ha convertido en un símbolo cultural de la ciudad. Iluminado por la noche, es un lugar popular para que los visitantes se tomen fotografías y ha sido añadido al Registro Nacional de Lugares Históricos. Aunque no es un cartel de entrada en el sentido convencional, es ampliamente reconocido como la bienvenida emblemática a Las Vegas.')">
+									<h3 class="blanco">Cartel de las Vegas</h3>
+									<img class="fotosCelu"src="../images/granero/ciudades/lv/las-vegas_d.jpg.image.1296.974.high.webp" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -736,17 +794,15 @@
 									de carreteras.</p>
 							</div>
 							<div class="fotosCiudad">
-								<div class="fotosCelu">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/la/1140-hollywood-walk-of-fame-esp.jpg', 'El Paseo de la Fama de Hollywood, ubicado en el bulevar Hollywood en Los Ángeles, es un ícono que honra a celebridades del entretenimiento. Inaugurado en 1960, cuenta con más de 2,600 estrellas incrustadas en las aceras, representando a figuras destacadas en cine, televisión, música, radio y teatro. La Cámara de Comercio de Hollywood selecciona a las celebridades homenajeadas, y cada estrella incluye el nombre y una categoría específica. Además de eventos especiales, el paseo es conocido por el Teatro Chino de Grauman y sus huellas de manos y estampas de celebridades. Como atractivo turístico clave, el Paseo de la Fama sigue siendo un símbolo icónico de la industria del entretenimiento.')">
 									<h3 class="blanco">paseo de la fama</h3>
-									<img 
-										src="../images/granero/ciudades/la/1140-hollywood-walk-of-fame-esp.jpg" alt="">
+									<img src="../images/granero/ciudades/la/1140-hollywood-walk-of-fame-esp.jpg" alt="">
 								</div>
-								<div class="fotosCelu">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/la/1200px-LA_Skyline_Mountains2.jpg', 'Los Ángeles, la ciudad más grande de California y la segunda más poblada de Estados Unidos, es un centro económico y cultural significativo. Conocida como la capital del entretenimiento, alberga la industria cinematográfica en Hollywood. La ciudad es diversa, con una economía que abarca tecnología, moda y turismo. Con atracciones turísticas como Disneyland y Universal Studios, así como una rica escena cultural y educativa, Los Ángeles es un lugar de gran relevancia y diversidad. Sin embargo, el tráfico congestionado es una característica notable de la ciudad.')">
 									<h3 class="blanco">ciudad de los angeles</h3>
-									<img 
-										src="../images/granero/ciudades/la/1200px-LA_Skyline_Mountains2.jpg" alt="">
+									<img src="../images/granero/ciudades/la/1200px-LA_Skyline_Mountains2.jpg" alt="">
 								</div>
-								<div class="fotosCelu">
+								<div class="fotosCelu" onclick="openPopup('../images/granero/ciudades/la/Hollywood_Sign_(Zuschnitt).jpg', 'El cartel de Hollywood es un icónico letrero situado en las colinas de Hollywood, en Los Ángeles, California. Originalmente erigido en 1923 como un anuncio inmobiliario llamado Hollywoodland, se ha convertido en un símbolo representativo de la industria del entretenimiento y de la ciudad de Los Ángeles. Con letras de 13.7 metros de altura, el letrero es una atracción turística popular y ha sido restaurado y conservado a lo largo de los años mediante donaciones y esfuerzos comunitarios. Ofrece vistas panorámicas desde varios puntos de vista y senderos en las cercanías.')">
 									<h3 class="blanco">cartel hoolywood</h3>
 									<img 
 										src="../images/granero/ciudades/la/Hollywood_Sign_(Zuschnitt).jpg" alt="">

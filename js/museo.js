@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll(".fondoRuta .enlaces-fijos a");
 
     for (const link of links) {
@@ -60,12 +60,22 @@ updateCount();
 const botMapa = document.querySelector('.botMapa');
 const lineaDeTiempo = document.querySelector('.lineaDeTiempo');
 
-botMapa.addEventListener('click', function() {
+botMapa.addEventListener('click', function () {
     if (lineaDeTiempo.style.display === 'block') {
         lineaDeTiempo.style.display = 'none'
     } else {
         lineaDeTiempo.style.display = 'block'
     }
 });
+
+function openPopup(imageSrc, text) {
+    document.getElementById('popup-image').src = imageSrc;
+    document.getElementById('popup-text').innerText = text;
+    document.getElementById('popup').style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+}
 
 
