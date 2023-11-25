@@ -462,26 +462,31 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 30rem;
-        height: 27rem;
+        height: 40rem;
         overflow: auto;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.9);
         padding: 20px;
-        border: 2px solid #ccc;
+        border: 2px solid white;
+        border-radius: 1rem 1rem 1rem 1rem  ;
         z-index: 2;
         text-align: center;
         padding-top: 3rem;
-        opacity: 0; /* Inicialmente establece la opacidad a 0 para la animación */
-        animation: fadeIn 0.5s ease-in-out forwards; /* Agrega una animación de fadeIn con duración de 0.5 segundos */
+        opacity: 0;
+        /* Inicialmente establece la opacidad a 0 para la animación */
+        animation: fadeIn 0.5s ease-in-out forwards;
+        /* Agrega una animación de fadeIn con duración de 0.5 segundos */
     }
+
     /* Definición de la animación */
-@keyframes fadeIn {
-    from {
-      opacity: 0;
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
-    to {
-      opacity: 1;
-    }
-  }
 
     .popup-image {
         width: 100%;
@@ -501,7 +506,7 @@
         font-size: 20px;
         font-weight: bold;
         cursor: pointer;
-        background-color: rgba(227, 0, 14, 1);
+        background-color: red;
         width: 30px;
     }
 }
