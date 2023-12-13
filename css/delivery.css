@@ -1,0 +1,99 @@
+.back {
+    background-image: url(../images/granero/lugar/delivery.jpg);
+}
+
+.imagenGrande {
+    width: 100%;
+}
+
+.opcionesDelivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 1rem;
+    
+}
+
+.opcionesDelivery li {
+    padding: 1rem;
+
+}
+
+.opcionActiva {
+    scale: 1.1;
+    border-bottom: 0.1rem solid brown;
+    color: brown;
+}
+
+.contenidoMostrado {
+    display: none;
+}
+
+.contenidoMostrado.activo {
+    display: block;
+}
+
+
+.boxMenu {
+    display: flex;
+    margin: 2rem;
+}
+.boxMenu-2{
+    text-align: start;
+    padding: 1rem;
+    width: 30rem;
+}
+.boxMenu-3{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-left: 0.1rem solid black;
+}
+.boxMenu-4{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.boxMenu-4 p {
+    background-color: brown;
+    width: 6rem;
+    border: 0.1rem solid brown;
+    border-radius: 1rem 1rem 1rem 1rem;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.boxMenu-3-2{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-left: 0.1rem solid black;
+    width: 15rem;
+}
+.boxMenu-4-2{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.boxMenu-4-2 p {
+    background-color: brown;
+    width: 6rem;
+    border: 0.1rem solid brown;
+    border-radius: 1rem 1rem 1rem 1rem;
+    color: white;
+    text-align: center;
+    
+
+}
+.imagenMenu {
+    width: 10rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
