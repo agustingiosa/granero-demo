@@ -11,7 +11,7 @@ let diaSemana = fechaActual.getDay();
 let horaActual = fechaActual.getHours();
 
 // Verificar si es viernes, sábado o domingo y está dentro del horario de apertura
-if ((diaSemana === 5 || diaSemana === 6 || diaSemana === 0) && horaActual >= 11.5 && horaActual < 24) {
+if ((diaSemana === 5 || diaSemana === 6 || diaSemana === 0) && horaActual >= 11.5 && horaActual < 24 || (diaSemana === 3 || diaSemana === 2 ) && horaActual >= 18 && horaActual < 24) {
   // Recorrer todos los elementos y actualizar su contenido y estilo
   for (let i = 0; i < elementosTienda.length; i++) {
     elementosTienda[i].textContent = "¡ABIERTO!";
