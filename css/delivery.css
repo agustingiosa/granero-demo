@@ -14,8 +14,12 @@
     margin: 1rem;
 }
 
-#menu {
-    background-color: brown;
+.menu2 {
+    position: sticky;
+    background-color: whitesmoke;
+    height: 5rem;
+    top: 5rem;
+    z-index: 1001;
 }
 
 .opcionesDelivery li {
