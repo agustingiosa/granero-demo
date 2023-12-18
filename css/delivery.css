@@ -25,7 +25,6 @@
 .opcionesDelivery li {
     padding: 1rem;
     width: 8rem;
-
 }
 
 .opcionActiva {
@@ -47,24 +46,33 @@
     display: flex;
     margin: 2rem;
 }
-.boxMenu-2{
+
+.boxMenu-2 {
     text-align: start;
     padding: 1rem;
     width: 30rem;
 }
-.boxMenu-3{
+
+.boxMenu-3 {
     text-align: start;
+    flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     border-left: 0.1rem solid black;
 }
-.boxMenu-4{
+
+.boxMenu-4 {
+    display: flex;
+    flex-direction: column;
     text-align: start;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
+
+
 .boxMenu-4 p {
     background-color: brown;
     width: 6rem;
@@ -75,22 +83,15 @@
 
 }
 
-
-
-.boxMenu-3-2{
+.boxMenu-4-2 {
+    display: flex;
+    flex-direction: column;
     text-align: start;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    border-left: 0.1rem solid black;
-    width: 15rem;
+    display: none;
 }
-.boxMenu-4-2{
-    text-align: start;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
+
 .boxMenu-4-2 p {
     background-color: brown;
     width: 6rem;
@@ -98,10 +99,115 @@
     border-radius: 1rem 1rem 1rem 1rem;
     color: white;
     text-align: center;
-    
 
 }
+
+
+
+.boxMenu-3-2 {
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-left: 0.1rem solid black;
+    width: 15rem;
+}
+
+
 .imagenMenu {
     width: 10rem;
     border-radius: 1rem 1rem 1rem 1rem;
 }
+
+@media (max-width: 1288px) {
+    .menu2 li{
+        font-size: 0.9rem;
+        padding: 0;
+        padding-top: 1rem;
+        width: 6rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .menu2 li{
+        font-size: 0.7rem;
+        padding-top: 1rem;
+        width: 5rem;
+    }
+
+    .boxMenu-2 {
+        width: 11rem;
+    }
+    .boxMenu-2 h3 {
+        font-size: 1.5rem;
+    }
+    .boxMenu-2 p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 836px) {
+    .menu2 li{
+        font-size: 0.7rem;
+        padding-top: 1rem;
+        width: 4.5rem;
+    }
+
+    .menu2 {
+        height: 7rem;
+    }
+
+    .opcionesDelivery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .opcionesDelivery a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .opcionesDelivery a {
+        width: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .boxMenu-2 {
+        width: 100%;
+    }
+    .boxMenu-2 h3 {
+        font-size: 1rem;
+    }
+    .boxMenu-2 p {
+        font-size: 1rem;
+    }
+
+    .boxMenu-3 {
+        display: none;
+    }
+    .boxMenu-4 {
+        display: none;
+    }
+    .boxMenu-4-2{
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .boxMenu-2 h3 {
+        font-size: 1rem;
+    }
+    .boxMenu-2 p {
+        font-size: 0.8rem;
+    }
+    .imagenMenu {
+        width: 7rem;
+        height: 9rem;
+    }
+
+}
+
