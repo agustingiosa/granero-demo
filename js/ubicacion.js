@@ -11,7 +11,7 @@ let diaSemana = fechaActual.getDay();
 let horaActual = fechaActual.getHours();
 
 // Verificar si es miercoles, jueves, viernes, sábado o domingo y está dentro del horario de apertura
-if ((diaSemana === 5 || diaSemana === 6 || diaSemana === 0) && horaActual >= 11.5 && horaActual < 24 || (diaSemana === 3 || diaSemana === 2) && horaActual >= 18 && horaActual < 24) {
+if ((diaSemana === 5 || diaSemana === 6 || diaSemana === 0) && horaActual >= 11.5 && horaActual < 24 || (diaSemana === 4|| diaSemana === 3 || diaSemana === 2  || diaSemana === 1) && horaActual >= 18 && horaActual < 24) {
   // Recorrer todos los elementos y actualizar su contenido y estilo
   for (let i = 0; i < elementosTienda.length; i++) {
     elementosTienda[i].textContent = "¡ABIERTO!";
@@ -27,13 +27,13 @@ if ((diaSemana === 5 || diaSemana === 6 || diaSemana === 0) && horaActual >= 11.
   // Calcular el tiempo restante hasta la próxima apertura
   let fechaApertura = new Date(fechaActual);
 
-  if ((diaSemana === 1 || diaSemana === 2) && horaActual < 18) {
+  //if ((diaSemana === 1 || diaSemana === 2) && horaActual < 18) {
     // Si hoy es lunes o martes y la hora actual es antes de las 18:30,
     // calcular la próxima apertura para el próximo miércoles
-    fechaApertura.setDate(fechaApertura.getDate() + (3 + 7 - diaSemana) % 7);
-    fechaApertura.setHours(18, 0, 0, 0);
-  } else if ((diaSemana === 3 || diaSemana === 4) && horaActual < 18) {
-    // Si hoy es miércoles o jueves y la hora actual es antes de las 18:30,
+    //fechaApertura.setDate(fechaApertura.getDate() + (3 + 7 - diaSemana) % 7);
+    //fechaApertura.setHours(18, 0, 0, 0);
+    if ((diaSemana === 1 || diaSemana === 2 || diaSemana === 3 || diaSemana === 4) && horaActual < 18) {
+    
     // calcular la próxima apertura para hoy a las 18:30
     fechaApertura.setHours(18, 0, 0, 0);
   } else if ((diaSemana === 5 || diaSemana === 6 || diaSemana === 0) && horaActual < 11) {
