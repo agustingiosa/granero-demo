@@ -43,6 +43,10 @@
     color: brown;
 }
 
+.negrita {
+    font-weight: bold;
+}
+
 .contenidoMostrado {
     display: none;
 }
@@ -153,6 +157,46 @@
     z-index: 1002;
 }
 
+#hamburguesas {
+    padding-top: 10rem;
+}
+
+#mila66 {
+    padding-top: 10rem;
+}
+
+#philys {
+    padding-top: 10rem;
+}
+
+#sandwiches {
+    padding-top: 10rem;
+}
+
+#postres {
+    padding-top: 10rem;
+}
+
+#bebidas {
+    padding-top: 10rem;
+}
+
+#hotdog {
+    padding-top: 10rem;
+}
+
+#picar {
+    padding-top: 10rem;
+}
+
+#ensaladas {
+    padding-top: 10rem;
+}
+
+#celiacos {
+    padding-top: 10rem;
+}
+
 @media (max-width: 1288px) {
     .menu2 li{
         font-size: 0.9rem;
@@ -164,7 +208,7 @@
 
 @media (max-width: 990px) {
     .menu2 li{
-        font-size: 0.7rem;
+        font-size: 0.83rem;
         padding-top: 1rem;
         width: 5rem;
     }
@@ -181,10 +225,10 @@
 }
 
 @media (max-width: 836px) {
-    .menu2 li{
-        font-size: 0.7rem;
+    .menu2 li a{
         padding-top: 1rem;
         width: 4.5rem;
+        text-align: center;
     }
 
     .menu2 {
